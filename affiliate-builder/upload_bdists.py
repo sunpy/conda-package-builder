@@ -33,7 +33,7 @@ def main():
         name = package_file.split('-')
         name.pop(-1)
         name.pop(-1)
-        name = "".join(name)
+        name = "-".join(name)
         print(name)
         if name in bdists:
             print("{} in bdists".format(name))
