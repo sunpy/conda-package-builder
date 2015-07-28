@@ -1,0 +1,89 @@
+package:
+  name: sunpy
+  version: 0.6b1
+
+source:
+  fn: sunpy-0.6b1.tar.gz
+  url: https://github.com/sunpy/sunpy/releases/download/v0.6b1/sunpy-0.6b1.tar.gz
+  md5: 37c4ad76478ca80174e008d2f497a0c8
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy >1.7.1
+    - astropy >=0.3.1
+    - scipy
+    - matplotlib
+    - pandas
+    - mock
+    - nose
+
+  run:
+    - python
+    - numpy >1.7.1
+    - astropy >=0.3.1
+    - scipy
+    - pandas >=0.12.1
+    - matplotlib
+    - suds-jurko
+    - glymur
+    - sqlalchemy
+    - beautiful-soup
+    - requests
+    - bsddb
+    - pytest
+    - scikit-image
+
+test:
+  # Python imports
+  imports:
+    - sunpy
+    - sunpy.cm
+    - sunpy.coordinates
+    - sunpy.data
+    - sunpy.data.test
+    - sunpy.data.test.waveunit
+    - sunpy.database
+    - sunpy.database.tests
+    - sunpy.image
+    - sunpy.image.tests
+    - sunpy.instr
+    - sunpy.instr.iris
+    - sunpy.io
+    - sunpy.io.tests
+    - sunpy.lightcurve
+    - sunpy.lightcurve.sources
+    - sunpy.lightcurve.tests
+    - sunpy.map
+    - sunpy.map.sources
+    - sunpy.map.tests
+    - sunpy.net
+    - sunpy.net.hek
+    - sunpy.net.hek2vso
+    - sunpy.net.helio
+    - sunpy.net.jsoc
+    - sunpy.net.tests
+    - sunpy.net.vso
+    - sunpy.physics
+    - sunpy.physics.transforms
+    - sunpy.roi
+    - sunpy.spectra
+    - sunpy.spectra.sources
+    - sunpy.spectra.tests
+    - sunpy.sun
+    - sunpy.sun.tests
+    - sunpy.tests
+    - sunpy.tests.tests
+    - sunpy.time
+    - sunpy.time.tests
+    - sunpy.util
+    - sunpy.util.tests
+    - sunpy.visualization
+    - sunpy.wcs
+    - sunpy.wcs.tests
+
+
+about:
+  home: http://www.sunpy.org/
+  license:  BSD License

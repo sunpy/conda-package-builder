@@ -2,3 +2,7 @@
 # Comments are only allowed on lines by themselves.
 # Packages will be built in the order listed below (roughly). See
 # docs for details.
+contextlib2==0.4.0
+glymur==0.8.2
+suds-jurko==0.6
+
