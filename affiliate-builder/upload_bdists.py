@@ -32,6 +32,7 @@ def main():
         # Work around packages having a hypen in their name
         name = package_file.split('-')
         name.pop(-1)
+        name.pop(-1)
         name = "".join(name)
         print(name)
         if name in bdists:
