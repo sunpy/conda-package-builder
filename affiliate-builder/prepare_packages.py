@@ -21,7 +21,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from generate_initial_versions import get_pypi_info
 
-BINSTAR_CHANNEL = 'astropy'
+BINSTAR_CHANNEL = 'sunpy'
 PYPI_XMLRPC = 'https://pypi.python.org/pypi'
 BDIST_CONDA_FOLDER = 'bdist_conda'
 TEMPLATE_FOLDER = 'recipe_templates'

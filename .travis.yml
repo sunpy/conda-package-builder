@@ -35,7 +35,7 @@ install:
 script:
     # Get ready to build.
     - python affiliate-builder/prepare_packages.py requirements.txt
-    - if [[ -d recipes ]]; then obvci_conda_build_dir.py recipes astropy; fi
+    - if [[ -d recipes ]]; then obvci_conda_build_dir.py recipes sunpy; fi
     # Build bdist_conda-based packages
     - if [[ -d bdist_conda ]]; then bash build_bdist.sh; fi
 
