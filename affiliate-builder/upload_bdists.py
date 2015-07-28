@@ -29,7 +29,10 @@ def main():
     for package in built_packages:
         _, package_file = os.path.split(package)
         print(package_file)
-        name = package_file.split('-')[0]
+        # Work around packages having a hypen in their name
+        name = package_file.split('-')
+        name.pop(-1)
+        name = "".join(name)
         print(name)
         if name in bdists:
             print("{} in bdists".format(name))
