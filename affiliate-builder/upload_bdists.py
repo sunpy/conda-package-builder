@@ -29,8 +29,9 @@ def main():
     for package in built_packages:
         _, package_file = os.path.split(package)
         name = package_file.split('-')[0]
-
+        print(name)
         if name in bdists:
+            print("{} in bdists".format(name))
             # Need to upload this one...
             # First grab the metadata from the package, which requires
             # opening the file.
