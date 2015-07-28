@@ -1,7 +1,7 @@
 Purpose
 =======
 
-This builder-bot makes `conda`_ packages for `astropy`_ affiliated packages.
+This builder-bot makes `conda`_ packages for `sunpy`_.
 
 Design decisions
 ================
