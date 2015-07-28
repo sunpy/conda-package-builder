@@ -34,6 +34,7 @@ requirements:
     - bsddb               [unix]
     - pytest
     - scikit-image
+    - wcsaxes
 
 test:
   # Python imports
