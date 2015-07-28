@@ -28,6 +28,7 @@ def main():
     built_packages = glob.glob(os.path.join(conda_builds_dir, '*.tar.bz2'))
     for package in built_packages:
         _, package_file = os.path.split(package)
+        print(package_file)
         name = package_file.split('-')[0]
         print(name)
         if name in bdists:
