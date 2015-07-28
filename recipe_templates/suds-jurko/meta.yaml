@@ -1,11 +1,11 @@
 package:
   name: suds-jurko
-  version: !!str 0.6
+  version: {{version}}
 
 source:
-  fn: suds-jurko-0.6.tar.bz2
-  url: https://pypi.python.org/packages/source/s/suds-jurko/suds-jurko-0.6.tar.bz2
-  md5: 1309e9bc2454aa3434041f0a24ae4e11
+  fn: suds-jurko-{{version}}.tar.bz2
+  url: https://pypi.python.org/packages/source/s/suds-jurko/suds-jurko-{{version}}.tar.bz2
+  md5: {{md5}}
 
 requirements:
   build:

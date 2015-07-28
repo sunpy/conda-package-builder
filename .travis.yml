@@ -18,8 +18,6 @@ env:
     matrix:
         - CONDA_PY=27
           CONDA_NPY=19
-        - CONDA_PY=34
-          CONDA_NPY=19
 
 install:
     # Install miniconda, always the version specified by CONDA_PY, because
