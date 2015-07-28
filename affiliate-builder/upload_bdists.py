@@ -22,6 +22,7 @@ def main():
     except (OSError):
         # Nothing to upload.
         return
+    print("bdists: {}".format(bdists))
 
     conda_builds_dir = os.path.join(config.default_prefix,
                                     'conda-bld', config.subdir)
