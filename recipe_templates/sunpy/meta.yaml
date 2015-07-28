@@ -1,18 +1,18 @@
 package:
   name: sunpy
-  version: 0.6b1
+  version: {{version}}
 
 source:
-  fn: sunpy-0.6b1.tar.gz
-  url: https://github.com/sunpy/sunpy/releases/download/v0.6b1/sunpy-0.6b1.tar.gz
-  md5: 37c4ad76478ca80174e008d2f497a0c8
+  fn: sunpy-{{version}}.tar.gz
+  url: https://github.com/sunpy/sunpy/releases/download/v{{version}}/sunpy-{{version}}.tar.gz
+  md5: {{md5}}
 
 requirements:
   build:
     - python
     - setuptools
     - numpy >1.7.1
-    - astropy >=0.3.1
+    - astropy >=1.0
     - scipy
     - matplotlib
     - pandas
@@ -22,7 +22,7 @@ requirements:
   run:
     - python
     - numpy >1.7.1
-    - astropy >=0.3.1
+    - astropy >=1.0
     - scipy
     - pandas >=0.12.1
     - matplotlib

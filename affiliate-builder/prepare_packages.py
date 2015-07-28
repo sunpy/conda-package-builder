@@ -311,8 +311,6 @@ def construct_build_list(packages, conda_channel=None):
 
         if not package.build:
             build_message = "do not build"
-        elif package.is_dev:
-            build_message = 'skip because package version is dev'
         elif unsupported_platform:
             build_message = 'build not supported on this platform'
         elif unsupported_python:
@@ -322,8 +320,7 @@ def construct_build_list(packages, conda_channel=None):
         else:
             build_message = 'BUILD'
 
-        package.build = (package.build and not package.is_dev
-                         and package.url and not unsupported_platform
+        package.build = (package.build and package.url and not unsupported_platform
                          and not unsupported_python)
 
         print(build_message)
