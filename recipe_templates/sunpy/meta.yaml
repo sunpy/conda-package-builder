@@ -4,7 +4,7 @@ package:
 
 source:
   fn: sunpy-{{version}}.tar.gz
-  url: https://github.com/sunpy/sunpy/releases/download/v{{version}}/sunpy-{{version}}.tar.gz
+  url: https://pypi.python.org/packages/source/s/sunpy/sunpy-{{version}}.tar.gz 
   md5: {{md5}}
 
 requirements:
