@@ -2,25 +2,3 @@
 # Comments are only allowed on lines by themselves.
 # Packages will be built in the order listed below (roughly). See
 # docs for details.
-## Dependencies for astropy affiliates
-hgtools==6.3
-keyring==5.3
-## affiliated packages
-astropy-helpers==1.0.3
-astroquery==0.2.5
-sncosmo==1.0.0
-pydl==0.3.0
-montage-wrapper==0.9.8
-ccdproc==0.3.1
-wcsaxes==0.6
-gammapy==0.2
-pyvo==0.0beta2
-photutils==0.1
-spherical-geometry==1.0.4
-APLpy==1.0
-specutils==0.1
-imexam==0.5.2
-gwcs==0.1.dev44
-pyregion==1.1.4
-astroML==0.3
-ginga==2.4.20150626080455
