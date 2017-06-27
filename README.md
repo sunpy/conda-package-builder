@@ -8,7 +8,7 @@ The main sunpy conda package is built on conda-forge:
 
 However, we don't want users to necessarily have to add conda-forge as a channel since there are a lot of channels there, and some could cause incompatibilities with the defaults channel.
 
-This repository includes a ``sync.py`` script that uses the anaconda.org API to make sure that all glue packages in [conda-forge](https://anaconda.org/conda-forge) are present in the [glueviz](https://anaconda.org/glueviz) conda channel. Users can then install glue with:
+This repository includes a ``sync.py`` script that uses the anaconda.org API to make sure that all glue packages in [conda-forge](https://anaconda.org/conda-forge) are present in the [sunpy](https://anaconda.org/sunpy) conda channel. Users can then install glue with:
 
     conda install -c sunpy sunpy
 
@@ -18,3 +18,5 @@ token via .travis.yml file.
 To run the sync manually, simply clone this repository and type:
 
     ./sync.sh
+   
+Thanks go to [Thomas Robitaille.](https://github.com/glue-viz/conda-sync) as the code here is copied with love. 
