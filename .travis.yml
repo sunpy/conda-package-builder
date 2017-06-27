@@ -9,8 +9,7 @@ env:
   global:
     - CONDA_DEPENDENCIES='anaconda-client'
     # Defines BINSTAR_TOKEN for sunpy binstar channel
-    - secure: 
-TZ13pJm5S6/sv5VOSV75CaaiPqv4HJjcVAOEpKWxW3Gysh3+QSLV3n1vu4IIumEIWQN5MVg5zlLarUM5jmfmqPBGgIjA+7XqPPj4S4cFuPzNS4WJlDHynIMiTw4HcxsrJyALM+0o5hhkEeHwrOZCohwch1VRbCxs/WXfI4qrtyQ=
+    - secure: TZ13pJm5S6/sv5VOSV75CaaiPqv4HJjcVAOEpKWxW3Gysh3+QSLV3n1vu4IIumEIWQN5MVg5zlLarUM5jmfmqPBGgIjA+7XqPPj4S4cFuPzNS4WJlDHynIMiTw4HcxsrJyALM+0o5hhkEeHwrOZCohwch1VRbCxs/WXfI4qrtyQ=
 
 install:
   - git clone git://github.com/astropy/ci-helpers.git
