@@ -1,8 +1,0 @@
-# Packages to be built should be listed below with version.
-# Comments are only allowed on lines by themselves.
-# Packages will be built in the order listed below (roughly). See
-# docs for details.
-contextlib2==0.5.1
-Glymur==0.8.3
-suds-jurko==0.6
-sunpy==0.6.2
