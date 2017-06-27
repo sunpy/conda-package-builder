@@ -18,7 +18,7 @@ def sync(from_channel, to_channel, package, token):
     """
 
     print("Syncing {0} from {1} to {2}".format(package, from_channel, to_channel))
-
+    print(token)
     # Get an API object to interact with anaconda.org
     api = get_server_api(token=token)
 
