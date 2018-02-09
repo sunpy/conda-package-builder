@@ -29,7 +29,7 @@ python sync.py --package mock --source conda-forge --destination sunpy
 python sync.py --package pytest --source conda-forge --destination sunpy
 python sync.py --package pytest-cov --source conda-forge --destination sunpy
 python sync.py --package pytest-mock --source conda-forge --destination sunpy
-python sync.py --package pytest-rerunfailures --source conda-forge --destination sunpy
+#python sync.py --package pytest-rerunfailures --source conda-forge --destination sunpy
 #python sync.py --package pytest-astropy --source conda-forge --destination sunpy
 
 # SunPy
