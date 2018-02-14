@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Base
-python sync.py --package astropy-helpers --source astropy --destination sunpy
 python sync.py --package astropy --source conda-forge --destination sunpy
 
 # Extra
@@ -9,7 +8,6 @@ python sync.py --package openjpeg --source conda-forge --destination sunpy
 python sync.py --package glymur --source conda-forge --destination sunpy
 
 # Docs
-python sync.py --package sphinx --source conda-forge --destination sunpy
 python sync.py --package sphinx-gallery --source conda-forge --destination sunpy
 
 # Dev
