@@ -10,6 +10,9 @@ python sync.py --package glymur --source conda-forge --destination sunpy
 
 # Docs
 python sync.py --package sphinx-astropy --source conda-forge --destination sunpy
+python sync.py --package sphinx-gallery --source conda-forge --destination sunpy
+python sync.py --package sphinx-automodapi --source conda-forge --destination sunpy
+python sync.py --package astropy-sphinx-theme --source conda-forge --destination sunpy
 
 # Dev
 python sync.py --package hypothesis --source conda-forge --destination sunpy
