@@ -8,6 +8,7 @@ python sync.py --package drms --source conda-forge --destination sunpy
 python sync.py --package openjpeg --source conda-forge --destination sunpy
 python sync.py --package glymur --source conda-forge --destination sunpy
 python sync.py --package zeep --source conda-forge --destination sunpy
+python sync.py --package asdf --source conda-forge --destination sunpy
 
 # Docs
 python sync.py --package sphinx-astropy --source conda-forge --destination sunpy
