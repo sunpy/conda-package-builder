@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pre-Base
+python sync.py --package pillow --source conda-forge --destination sunpy
+
 # Base
 python sync.py --package astropy --source conda-forge --destination sunpy
 python sync.py --package drms --source conda-forge --destination sunpy
