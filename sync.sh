@@ -7,7 +7,6 @@ python sync.py --package pillow --source conda-forge --destination sunpy
 python sync.py --package numpy --source conda-forge --destination sunpy
 python sync.py --package scipy --source conda-forge --destination sunpy
 python sync.py --package matplotlib --source conda-forge --destination sunpy
-python sync.py --package drms --source conda-forge --destination sunpy
 python sync.py --package pandas --source conda-forge --destination sunpy
 python sync.py --package astropy --source conda-forge --destination sunpy
 
