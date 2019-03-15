@@ -16,6 +16,10 @@ python sync.py --package glymur --source conda-forge --destination sunpy
 
 # Net
 python sync.py --package parfive --source conda-forge --destination sunpy
+python sync.py --package aiohttp --source conda-forge --destination sunpy
+python sync.py --package aioftp --source conda-forge --destination sunpy
+python sync.py --package tqdm --source conda-forge --destination sunpy
+python sync.py --package setuptools --source conda-forge --destination sunpy
 python sync.py --package beautifulsoup4 --source conda-forge --destination sunpy
 python sync.py --package drms --source conda-forge --destination sunpy
 python sync.py --package python-dateutil --source conda-forge --destination sunpy
